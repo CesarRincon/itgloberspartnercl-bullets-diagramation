@@ -5,7 +5,7 @@
         "allowed": "*",
         "content": {
             "porperties": {
-                "bullet": {
+                "bullets": {
                     "$ref": "app:itgloberspartnercl.bullets-diagramation#/definitions/BulletGroup"
                 }
             }
