@@ -25,13 +25,16 @@ const BulletGroup = ({
     const CSS_HANDLES = ["bullet__container"]
     const handles = useCssHandles(CSS_HANDLES)
 
+    console.log(handles)
+
     return (
         <ListContextProvider list={newListContextValue}>
             {
                 isMobile ?
-                    <div className={handles.bullet__container}>
-                        {bulletsGroup}
-                    </div>
+                    // <div className={handles.bullet__container}>
+                    //     {bulletsGroup}
+                    // </div>
+                    children
                     :
                     children
             }
