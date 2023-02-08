@@ -4,13 +4,21 @@
             "type": "array",
             "title": "Bullets Group",
             "items": {
-                "porperties": {
+                "properties": {
                     "image": {
                         "$ref": "app:vtex.native-types#/definitions/url",
                         "default": "",
                         "title": "imagen",
                         "widget": {
-                            "ui-widget": "image-uploader"
+                            "ui:widget": "image-uploader"
+                        }
+                    },
+                    "secondaryImage": {
+                        "$ref": "app:vtex.native-types#/definitions/url",
+                        "default": "",
+                        "title": "secondaryImagen",
+                        "widget": {
+                            "ui:widget": "image-uploader"
                         }
                     },
                     "titleBullet": {

@@ -1,3 +1,3 @@
-import BulletGroup from "./components/BalletGroup";
+import BulletGroup from "./components/BulletGroup";
 
 export default BulletGroup;
